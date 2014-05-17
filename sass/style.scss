@@ -1,8 +1,12 @@
 $font-stack:    Helvetica, sans-serif;
 $primary-color: red;
+$secondary-color: green;
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
 }
 
+h1 {
+  color: $secondary-color;
+}
