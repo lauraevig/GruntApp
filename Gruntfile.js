@@ -1,5 +1,10 @@
 module.exports = function(grunt) {
   grunt.initConfig({
+    options: {
+      includePaths: [
+        './bower_components/bower-bourbon'
+      ]
+    },
     sass: {
       dist: {
         files: {

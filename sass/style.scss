@@ -1,5 +1,7 @@
+@import "../bower_components/bower-bourbon/bourbon";
+
 $font-stack:    Helvetica, sans-serif;
-$primary-color: red;
+$primary-color: orange;
 $secondary-color: green;
 
 body {
@@ -9,4 +11,8 @@ body {
 
 h1 {
   color: $secondary-color;
+}
+
+button {
+  @include button(shiny, #ff0000);
 }
